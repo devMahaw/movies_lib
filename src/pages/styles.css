@@ -119,3 +119,18 @@
     margin-top: 1rem;
     line-height: 1.4rem;
 }
+
+@media (max-width: 768px) {
+    .movies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .movies-container div {
+        width: 100%;
+    }
+
+    .movie-page .movie-card img {
+        width: 300px;
+    }
+}

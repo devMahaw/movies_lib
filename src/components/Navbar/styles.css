@@ -40,3 +40,19 @@
     background-color: transparent;
     color: #F7D354;
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #navbar h2 a {
+        margin-bottom: 10px;
+    }
+
+    #navbar input {
+        padding: 0.2rem 1.5rem;
+    }
+}
